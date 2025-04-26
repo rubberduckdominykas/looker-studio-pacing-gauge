@@ -1,0 +1,63 @@
+{
+    "data": [
+        {
+            "id": "fieldSelection",
+            "label": "Field Selection",
+            "elements": [
+                {
+                    "id": "actual",
+                    "label": "Actual",
+                    "type": "METRIC",
+                    "options": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                {
+                    "id": "pacing",
+                    "label": "Pacing",
+                    "type": "METRIC",
+                    "options": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                {
+                    "id": "goal",
+                    "label": "Goal",
+                    "type": "METRIC",
+                    "options": {
+                        "min": 1,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "style": [
+        {
+            "id": "colours",
+            "label": "Change Colour",
+            "elements": [
+                {
+                    "type": "FILL_COLOR",
+                    "id": "goalColour",
+                    "label": "Goal Color",
+                    "defaultValue": "#ffa800"
+                },
+                {
+                    "type": "FILL_COLOR",
+                    "id": "actualColour",
+                    "label": "Actual Color",
+                    "defaultValue": "#7cb342"
+                },
+                {
+                    "type": "FILL_COLOR",
+                    "id": "exceeded_goalColour",
+                    "label": "Exceeded Goal Color",
+                    "defaultValue": "#d32f2f"
+                }
+            ]
+        }
+    ]
+}
